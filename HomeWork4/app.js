@@ -27,10 +27,7 @@ try {
 
         const arr = textIn.split(/\r?\n/);
 
-        // Remove the final empty element if it exists
-        if (arr[arr.length - 1] === '') {
-            arr.pop();
-        }
+     
 
         // Copy the required number of available lines
         for (let j = 0; j < i + 1 && j < arr.length; j++) {
